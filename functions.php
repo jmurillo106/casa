@@ -6,7 +6,7 @@ function svg($width,$height,$elements){
 	}
 
 function svgrect($name,$x,$y,$w,$h,$fill,$linewid,$linecolor){
-	$salida="<rect style=\"fill:$fill;stroke:$linecolor;stroke-width:$linewid\"	id=\"$name\" width=\"$w\" height=\"$h\" x=\"$x\" y=\"$y\" 	/>";
+	$salida="<rect style=\"fill:$fill;stroke:$linecolor;stroke-width:$linewid\"	id=\"$name\" width=\"$w\" height=\"$h\" x=\"$x\" y=\"$y\" 	/>\n";
 	return($salida);
 }
 
