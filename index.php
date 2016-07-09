@@ -15,14 +15,14 @@ print<<<html
 		$.post("casa.php", {a:"3"}, function(result){
 	  	$("#casa").html(result);
 		});
-	},3000);
+	},500);
 });
 </script>
 	</head>
 	<body style="background:silver;">
 	<br>
 <div id="casa">
-CARGANDO STATUS
+CARGANDO MONITOR
 </div>
 	</body>
 </html>

@@ -17,4 +17,7 @@ function enlace($url,$element){
 	return("<a href=\"$url\">$element</a>");
 }
 
+
+
+
 ?>
