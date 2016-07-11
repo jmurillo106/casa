@@ -9,7 +9,7 @@ while($row=mysql_fetch_array($result)){
 rect;
 }
 
-$salida="<svg width=\"400\" height=\"400\" >\n $salida </svg>";
+$salida="<svg width=\"300\" height=\"300\" >\n $salida </svg>";
 
 print<<<html
 <!DOCTYPE html>

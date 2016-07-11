@@ -3,10 +3,6 @@
 //
 //mysql_close($db);
 
-
-
-
-
 print<<<html
 <html>
 <head>
@@ -23,13 +19,18 @@ print<<<html
 		});
 	},1000);
 
+	$.post("casa.php", {a:"3"}, function(result){
+  	$("#casa").html(result);
+	});
 
 
 
 	});
 
 </script>
+
 </head>
+
 <body>
 <div  id=casa class="col-xs-12 "style="border:1px solid red;height:300px;">
 casa
