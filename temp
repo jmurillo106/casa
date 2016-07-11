@@ -1,0 +1,32 @@
+ $("button").click(function(){
+        $.get("demo_test.asp", function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+
+
+/*
+//alert("Hello"); 
+//	cargar();
+
+function myFunction() {
+    setInterval(function(){ alert("Hello"); }, 3000);
+}
+
+
+function myFunction() {
+    setTimeout(function(){ alert("Hello"); }, 3000);
+}
+
+*/
+
+
+
+
+
+setTimeout(function(){ 
+	alert("Hello"); 
+	function cargar(){
+	}
+}, 3000);
+
