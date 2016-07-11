@@ -1,30 +1,29 @@
 <?PHP
-print<<<html
-<!DOCTYPE html>
-<html>
-	<head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-	</script>
-	<meta charset="UTF-8">
-	<title>JMURILLOHOME</title>
-<script>
-	$(document).ready(function(){
-		function obtenertabla(){
-	}
-	setInterval(function(){ 
-		$.post("casa.php", {a:"3"}, function(result){
-	  	$("#casa").html(result);
-		});
-	},500);
-});
-</script>
-	</head>
-	<body style="background:silver;">
-	<br>
-<div id="casa">
-CARGANDO MONITOR
-</div>
-	</body>
-</html>
-html;
+print "\n\nhola\n\n";
+$f=fopen("data","r") or die("fopen r error");
+$a= fread($f,filesize("data"));
+fclose($f);
+
+$a[0]="1";
+$a[1]="1";
+$a[2]="3";
+
+$f=fopen("data","w") or die("fopen w error");
+fwrite($f,$a);
+fclose($f);
+
+print "\n".$a."\n";
+
+?>
+<?PHP
+session_start();
+
+
+
+
+
+
+
+
+header("location:/");
 ?>
