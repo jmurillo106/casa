@@ -33,3 +33,10 @@ setTimeout(function(){
 
 
 
+<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
+contenido
+</div>
+<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
+contenido
+</div>
+

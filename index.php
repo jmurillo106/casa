@@ -21,14 +21,8 @@ print<<<html
 </script>
 </head>
 <body>
-<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
-contenido
-</div>
-<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
-contenido
-</div>
-<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
-contenido
+<div  id=casa class="col-xs-12 "style="border:1px solid red;height:300px;">
+casa
 </div>
 </body>
 </html>
