@@ -16,6 +16,16 @@ print<<<html
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>
 	$(document).ready(function(){
+
+	setInterval(function(){ 
+		$.post("casa.php", {a:"3"}, function(result){
+	  	$("#casa").html(result);
+		});
+	},1000);
+
+
+
+
 	});
 
 </script>
