@@ -1,34 +1,39 @@
 <?PHP
+
+
+
+
+
+
+
 print<<<html
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
 	cargar();
 });
 
 function cargar(){
+
 }
-
-
-
-
-
 </script>
-
-
 </head>
 <body>
-<svg width=200 height=200>
-	<rect x=5 y=5 width=50 height=50 fill="red" stroke-width=4 stroke="red">
-</svg>
-
-
-
+<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
+contenido
+</div>
+<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
+contenido
+</div>
+<div  class="col-xs-4 "style="border:1px solid red;height:200px;">
+contenido
+</div>
 </body>
 </html>
 html;
-
 ?>
