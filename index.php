@@ -37,10 +37,10 @@ print<<<html
 </head>
 
 <body>
-<div  id=casa class="col-xs-6 "style="border:1px solid red;height:300px;">
+<div  id=casa class="col-xs-5 "style="border:1px solid red;height:300px;">
 casa
 </div>
-<div  id=temp class="col-xs-6 "style="border:1px solid red;height:300px;">
+<div  id=temp class="col-xs-4 "style="border:1px solid red;height:300px;">
 temp
 </div>
 </body>
