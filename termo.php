@@ -18,7 +18,7 @@ print<<<html
 
 		<circle cx="100" cy="100" r="90" stroke="silver" stroke-width="4" fill="white" />
 
-		<path d="M 20 100 	Q 100 -50 180 100" stroke="silver" stroke-width="3" fill="yellow" />
+		<path d="M 100 100 L 30 125 	Q 40 30  100 25 	Q 155 25  170 125 Z" stroke="#000" stroke-width="3" fill="#ffc" />
 
 		<line x1="100" y1="100" x2="$x2" y2="$y2" style="stroke:blue;stroke-width:3" />
 
