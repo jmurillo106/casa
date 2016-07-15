@@ -40,6 +40,7 @@ print<<<html
 <div  id=casa class="col-xs-5 "style="border:1px solid red;height:300px;">
 casa
 </div>
+
 <div  id=temp class="col-xs-4 "style="border:1px solid red;height:300px;">
 temp
 </div>
