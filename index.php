@@ -1,4 +1,4 @@
-?PHP
+<?PHP
 //$db=mysql_connect("localhost","localuser","localpass") or die(mysql_error());
 //
 //mysql_close($db);
