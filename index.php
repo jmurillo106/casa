@@ -14,7 +14,7 @@ print<<<html
 	$(document).ready(function(){
 
 	setInterval(function(){ 
-		$.post("casa.php", {a:"3"}, function(result){
+		$.post("casa2.php", {a:"3"}, function(result){
 	  	$("#casa").html(result);
 		});
 
@@ -24,7 +24,7 @@ print<<<html
 
 	},1000);
 
-	$.post("casa.php", {a:"3"}, function(result){
+	$.post("casa2.php", {a:"3"}, function(result){
   	$("#casa").html(result);
 	});
 
