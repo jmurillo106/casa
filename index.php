@@ -22,7 +22,7 @@ print<<<html
 	  	$("#temp").html(result);
 		});
 
-	},1000);
+	},2000);
 
 	$.post("casa.php", {a:"3"}, function(result){
   	$("#casa").html(result);
@@ -37,11 +37,13 @@ print<<<html
 </head>
 
 <body>
-<div  id=casa class="col-xs-9 "style="border:1px solid red;height:300px;">
+<!-div  id=casa class="col-xs-9 "style="border:1px solid red;height:300px;"=>
+<div id=casa>
 casa
 </div>
 
-<div  id=temp class="col-xs-3 "style="border:1px solid red;height:300px;">
+<!-div  id=temp class="col-xs-3 "style="border:1px solid red;height:300px;"->
+<div id=temp>
 temp
 </div>
 </body>
